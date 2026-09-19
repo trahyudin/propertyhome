@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Estatewerks — Website & Platform Digital Spesialis Properti</title>
+  <meta name="description" content="Jasa pembuatan website dan platform digital untuk developer properti, kantor broker, dan top agen: branding mewah, lead generation otomatis, SEO properti, dan manajemen listing." />
+  <meta name="robots" content="index, follow" />
+  <meta property="og:title" content="Estatewerks — Website & Platform Digital Spesialis Properti" />
+  <meta property="og:description" content="Platform website properti siap pakai dengan branding mewah, lead generation otomatis, SEO properti, dan manajemen listing." />
+  <meta property="og:type" content="website" />
+
+  <!-- Anti-flash script for dark mode -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("ew.theme");
+        if (t === "dark" || (!t && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
+          document.documentElement.classList.add("dark");
+        }
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="https://user.uploads.dev/file/82555a6a99528792e2aeb8e8ed2441b7.svg" />
+  <link rel="apple-touch-icon" href="https://user.uploads.dev/file/82555a6a99528792e2aeb8e8ed2441b7.svg" />
+</head>
+<body class="bg-sand font-sans text-charcoal antialiased transition-colors duration-300 dark:bg-[#141414] dark:text-bone">
+  <div id="root"></div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+</html>

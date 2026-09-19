@@ -1,0 +1,19 @@
+[
+  {
+    "id": "ld_local_1789745724780",
+    "email": "test.developer@estatewerks.id",
+    "name": "Budi Santoso",
+    "phone": "+628123456789",
+    "company": "PT Properti Mandiri",
+    "message": "Saya ingin request demo paket Agency Hub dan custom listing.",
+    "sourcePage": "footer-form",
+    "lang": "id",
+    "utm": {
+      "source": "automated-test",
+      "campaign": "lead-test"
+    },
+    "ip": "::ffff:127.0.0.1",
+    "status": "new",
+    "createdAt": "2026-09-18T15:35:24.779Z"
+  }
+]
